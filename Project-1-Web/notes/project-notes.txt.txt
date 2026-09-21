@@ -1,0 +1,56 @@
+Project title: Web Application Vulnerability Assessment and Penetration Testing
+
+Target: OWASP Juice Shop
+
+Target URL: http://127.0.0.1:3000
+
+Testing date: September 2026
+
+Tester: Arvind
+
+Scope: Local OWASP Juice Shop application in an isolated lab environment.
+
+Executive Summary:
+This project involved a web application vulnerability assessment and penetration testing exercise against OWASP Juice Shop in an isolated local lab environment. The assessment followed an OWASP-based testing methodology using Burp Suite and OWASP ZAP to analyze application behavior, HTTP requests and responses, authentication, authorization, input validation, session security, and security headers. Potential security issues were manually reviewed and documented with supporting evidence, impact, remediation recommendations, and retest status.
+
+Tools:
+
+* Burp Suite
+* OWASP ZAP
+* Browser
+* curl
+
+Methodology:
+
+* Application mapping
+* HTTP request and response analysis
+* Authentication and authorization testing
+* Input validation testing
+* XSS and SQL Injection testing
+* Session security review
+* Security header analysis
+* Manual validation of potential findings
+
+Findings:
+
+* Potential security issues were identified during testing.
+* Automated scanner alerts were manually reviewed before documentation.
+* Confirmed findings will be documented with severity, impact, and reproduction steps.
+
+Evidence:
+
+* Burp Suite HTTP History
+* Burp Repeater requests and responses
+* OWASP ZAP scan results
+* Security header output
+* Screenshots of testing activities
+
+Remediation:
+
+* Apply appropriate input validation and output encoding.
+* Implement proper authentication and authorization controls.
+* Configure appropriate security headers.
+* Follow secure coding practices and minimize unnecessary information disclosure.
+
+Retest result:
+Testing results will be retested after remediation. Final status will be documented as Fixed, Partially Fixed, Not Fixed, or Not Retested.
